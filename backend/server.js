@@ -1,4 +1,5 @@
-// import path from "path";
+import express from "express";
+import path from "path";
 import config from "./config";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
@@ -7,8 +8,8 @@ import productRoute from "./routes/productRoute";
 import orderRoute from "./routes/orderRoute";
 import uploadRoute from "./routes/uploadRoute";
 
-const express = require("express");
-const path = require("path");
+// const express = require("express");
+// const path = require("path");
 
 const mongodbUrl = config.MONGODB_URL;
 mongoose
